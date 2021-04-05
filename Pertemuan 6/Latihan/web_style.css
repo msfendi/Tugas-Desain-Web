@@ -1,0 +1,208 @@
+#wrap {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#header {
+    background-image: url('images/background.jpg');
+    border-bottom-right-radius: 50px;
+    width: 730px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 25);
+    float: right;
+}
+
+#judul {
+    font-size: 50px;
+    text-align: right;
+    padding: 200px 40px 0 0;
+}
+
+#judul a {
+    color: white;
+    text-decoration: none;
+}
+
+#judul a:hover {
+    color: grey;
+}
+
+#desc {
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    padding: 0 40px 200px 0;
+}
+
+#menu ul {
+    float: right;
+    background: darkblue;
+    padding: 0 0px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 25);
+    list-style: none;
+    width: 730px;
+}
+
+#menu ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li:hover {
+    background: blue;
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#menu ul li:hover a {
+    background: blue;
+}
+
+#menu ul li:hover>ul {
+    display: block;
+}
+
+#menu ul ul {
+    background: darkblue;
+    position: absolute;
+    padding: 0;
+    top: 100%;
+    display: none;
+    width: auto;
+}
+
+#menu ul ul li {
+    float: none;
+    position: relative;
+}
+
+#menu ul ul li a {
+    padding: 10px 30px;
+    color: white;
+}
+
+#menu ul ul li a:hover {
+    background: lightblue;
+    color: white;
+}
+
+#menu ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+#kiri {
+    border-top-left-radius: 50px;
+    background-color: black;
+    width: 250px;
+    height: auto;
+    margin: 0 0 20px;
+    float: left;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 25);
+}
+
+#kiri ul {
+    margin: 0 0 20px 20px;
+    padding: 0;
+    list-style: none;
+    width: 200px;
+}
+
+#kiri li {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#kiri h2 {
+    margin: 0px 0 0px 0;
+    padding: 5px 12px;
+    color: white;
+    font-size: 20px;
+    background: darkblue;
+}
+
+#kiri a {
+    display: block;
+    padding: 3px 10px;
+    color: gray;
+    text-decoration: none;
+    border-bottom: 1px dotted blue;
+}
+
+#kiri a:hover {
+    background: blue;
+    color: white;
+}
+
+#konten {
+    background-image: url('images/background.jpg');
+    /* background-color: black; */
+    width: 690px;
+    height: auto;
+    margin: 0 0 20px;
+    padding: 20px 20px 20px 20px;
+    float: right;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 25);
+}
+
+.posttitle {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial;
+    color: blue;
+}
+
+.posttitle a {
+    text-decoration: none;
+}
+
+.post {
+    margin: 0 20px 0 20px;
+    text-align: justify;
+    color: blanchedalmond;
+}
+
+b a {
+    color: blue;
+    text-decoration: none;
+}
+
+img {
+    width: 210px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+#footer {
+    background-image: url('images/background.jpg');
+    padding: 20px 0 0 0;
+    width: 1000px;
+    height: 90px;
+    clear: both;
+    margin: 20 0;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}

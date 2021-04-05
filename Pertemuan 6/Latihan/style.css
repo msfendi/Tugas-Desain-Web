@@ -1,0 +1,156 @@
+body {
+    background-color: cyan;
+}
+
+/* STATIC  */
+.wrapper {
+    background: #ccc;
+    border-radius: 0px;
+    padding: 16px;
+    margin: 32px;
+}
+
+.box {
+    background: greenyellow;
+    color: #fff;
+    padding: 16px;
+    margin: 10px;
+    left: 40px;
+}
+
+
+/* RELATIVE */
+.box--rel {
+    position: relative;
+    background: deepskyblue;
+    color: #fff;
+    padding: 16px;
+    margin: 10px;
+    left: 40px;
+}
+
+.box--rel--contact {
+    position: relative;
+    background: deepskyblue;
+    color: #fff;
+    padding: 16px;
+    margin: 10px;
+    left: 70px;
+}
+
+
+/* ABSOLUT */
+.wrapperAbsolut {
+    background: #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 32px;
+    position: relative;
+    min-height: 500px;
+}
+
+.boxAbs {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    left: 40px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.box1 {
+    top: 50px;
+    bottom: 0px;
+    background: orangered;
+}
+
+.box2 {
+    top: 100px;
+    bottom: 0px;
+    left: 80px;
+    background: blue;
+}
+
+.box3 {
+    top: 140px;
+    bottom: 0px;
+    left: 120px;
+    background: crimson;
+}
+
+.box4 {
+    padding-right: 50px;
+    top: 170px;
+    left: 150px;
+    bottom: 0px;
+    background: pink;
+}
+
+.box5 {
+    top: 210px;
+    left: 190px;
+    bottom: 0px;
+    background: chartreuse;
+}
+
+.box6 {
+    top: 250px;
+    left: 230px;
+    bottom: 0px;
+    background: coral;
+}
+
+.box7 {
+    top: 300px;
+    left: 270px;
+    bottom: 0px;
+    background: gold;
+}
+
+
+/* FIXED */
+.navigasi {
+    position: fixed;
+    background: lightgreen;
+    right: 10px;
+    top: 100px;
+    left: 10px;
+    z-index: 1;
+    padding: 10px;
+}
+
+
+/* PRAKTIKUM 6.1 */
+.static {
+    left: 100px;
+    position: static;
+    width: 300px;
+    height: 1000px;
+    background: red;
+}
+
+.relative {
+    left: 100px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background: blue;
+}
+
+.absolut {
+    left: 350px;
+    top: 150px;
+    position: absolut;
+    width: 300px;
+    height: 100px;
+    background: lightpink;
+}
+
+.fixed {
+    left: 300px;
+    top: 50px;
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    background: lightgreen;
+}
