@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Akun</title>
+</head>
+<body>
+    <form action="register.php" method="post">
+        <fieldset>
+            <legend>Form Registrasi </legend>
+            <p>
+                <label for="username">Username :</label>
+                <input type="text" name="username" id="username" placeholder="contoh123">
+            </p>
+
+            <p>
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" placeholder="pass123">
+            </p>
+
+            <p>
+                <label for="tgllahir">Tanggal Lahir :</label>
+                <input type="date" name="tgllahir" id="tgllahir">
+            </p>
+
+            <p>
+                <label for="gender">Jenis Kelamin :</label>
+                <label><input type="radio" name="gender" id="gender" value="male">Laki-Laki</label>
+                <label><input type="radio" name="gender" id="gender" value="female">Perempuan</label>
+            </p>
+
+            <p>
+                <label for="tipe">Tipe Akun :</label>
+                <select name="tpakun" id="tpakun">
+                    <option value="Trial">Trial 7 hari</option>
+                    <option value="Subs">Berlangganan</option>
+                    <option value="Premium">Premium</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="info">Informasi Lainnya</label>
+                <textarea name="info" id="info"></textarea>
+            </p>
+
+            <p>
+                <button type="submit" name="submit">Simpan</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
