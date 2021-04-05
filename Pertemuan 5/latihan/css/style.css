@@ -1,0 +1,122 @@
+/* External Style */
+body {
+    border-color: rgb(41, 100, 121);
+}
+
+h1 {
+    color: rgb(8, 3, 70);
+}
+
+h5 {
+    color: grey
+}
+
+p,
+h3 {
+    border: 1;
+    color: orangered;
+    font-family: arial;
+    font-size: big;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.kotak {
+    padding: 20px;
+    width: fit-content;
+    color: white;
+    margin: 10px;
+    background: rgb(46, 139, 214);
+}
+
+#persegi {
+    padding: 20px;
+    width: fit-content;
+    color: white;
+    margin: 10px;
+    background: rgb(150, 45, 97);
+}
+
+p.dotted {
+    border-style: dotted;
+    border-color: rgb(155, 12, 12);
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+.kotak1 {
+    /* tanpa padding */
+    width: fit-content;
+    border: 1px;
+    background-color: lightblue;
+}
+
+.kotak2 {
+    border: 1px solid black;
+    width: fit-content;
+    background-color: rgb(1, 34, 46);
+}
+
+.kotak3 {
+    border: 1px solid black;
+    background-color: rgb(1, 34, 46);
+}
+
+.kotak4 {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(1, 34, 46);
+}
+
+.gambarLeft {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.gambarRight {
+    width: 200px;
+    float: right;
+    margin-left: 10px;
+}
+
+.lorem {
+    text-align: center;
+    /* margin-right: 250px; */
+}
