@@ -1,0 +1,176 @@
+.navbar img {
+    height: 50px;
+    margin-left: 40px;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px 0 gray;
+}
+
+.navbar * {
+    display: inline;
+}
+
+.navbar li a {
+    margin: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+body {
+    height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: verdana;
+}
+
+.home {
+    padding: 210px;
+}
+
+.name {
+    font-size: 40px;
+    margin-left: 0;
+    color: white;
+    text-align: center;
+}
+
+.home img {
+    width: 200px;
+    height: 200px;
+}
+
+.home p.double {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border-style: dashed;
+    border-color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 35px;
+    margin-left: 0;
+    color: black;
+    text-align: center;
+}
+
+.titlewhite {
+    padding-top: 30px;
+    font-size: 35px;
+    margin-left: 0;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+}
+
+.container {
+    display: grid;
+}
+
+.content {
+    grid-column: 1;
+    margin-bottom: 40px;
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 360px;
+    height: 460px;
+}
+
+.desk {
+    margin-top: 100px;
+    margin-left: 70px;
+    grid-column: 2;
+    /* float: right; */
+    margin-right: 100px;
+}
+
+.icon1 {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.icon2 {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.icon3 {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.icon4 {
+    width: 50px;
+    height: 50px;
+}
+
+.contactproject {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.sosmed {
+    border-style: dashed;
+    border-color: white;
+    width: 400px;
+    height: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+#project {
+    width: fit-content;
+    height: max-content;
+}
+
+.project-content {
+    margin-top: 50px;
+}
+
+.faq-content {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    margin-top: 70px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.kotak-faq {
+    /* tanpa padding */
+    opacity: 0.4;
+    box-shadow: 10;
+    border-radius: 20px;
+    width: 400px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px;
+    background-color: white;
+}
+
+.about-content {
+    margin-top: 50px;
+}
