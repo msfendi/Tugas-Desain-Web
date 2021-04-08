@@ -6,15 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menggunakan mediaquery</title>
     <style>
+        body{
+            background-image: url('img/background.jpg');
+            background-size: cover;
+        }
+        .kelompok{ 
+            margin-top: 100px;
+            text-align: center;
+            border: solid;
+            border-color: salmon;
+            max-width: 500px;
+        }
+        h3{
+            color: orange;
+        }
+        h4{
+            color: lime;
+        }
         .smartphone{
+            color: red;
             display: none;
         }
 
         @media only screen and (max-width: 375px) {
             body{
-                background-image: url('img/meme.jpg');
-                background-size: contain;
-                
+                background-image: url('img/potrait.jpg');
+                background-size: cover;
             }
 
             .smartphone{
@@ -24,9 +41,16 @@
     </style>
 </head>
 <body>
-    <h3>Mneggunakan media query css 3</h3>
+    <center>
+        <div class="kelompok">
+            <h3>Kelompok Desain Web</h3>
+            <h4>Ahmad Misbahuddin</h4>
+            <h4>Mohamad Syarifudin Efendi</h4>
+            <h4>Ryan Brilian Fatsena</h4>
+        </div>
+    </center>
     <div class="smartphone">
-        <h2>Terdeteksi ukuran smartphone</h2>
+        <h2>Ukuran Smartphone</h2>
     </div>
 </body>
 </html>
