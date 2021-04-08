@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menggunakan mediaquery</title>
+    <style>
+
+    	@media only screen and (min-width: 1001px){
+    		body{
+            background-image: url('img/background.jpg');
+            background-size: cover;
+        }
+        .kelompok{ 
+            margin-top: 100px;
+            text-align: center;
+            border: solid;
+            border-color: salmon;
+            max-width: 500px;
+        }
+        h3{
+            color: orange;
+        }
+        h4{
+            color: lime;
+        }
+        .smartphone{
+            color: red;
+            display: none;
+        }
+
+        .tablet{
+           display: none;
+         }
+    	}
+
+        /*Ukuran Smartphone*/
+        @media only screen and (min-width: 372px) and (max-width: 619px){
+            body{
+                background-image: url('img/potrait.jpg');
+                background-size: cover;
+            }
+
+            .tablet{
+                display: none;
+            }
+
+            .smartphone{
+                display: block;
+            }
+        }
+
+        /*Ukuran Tablet*/
+        @media only screen and (min-width: 620px) and (max-width: 1000px) {
+            body{
+                background-image: url('img/potrait.jpg');
+                background-size: cover;
+            }
+
+            .tablet{
+                display: block;
+            }
+
+            .smartphone{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="kelompok">
+            <h3>Kelompok Desain Web</h3>
+            <h4>Ahmad Misbahuddin</h4>
+            <h4>Mohamad Syarifudin Efendi</h4>
+            <h4>Ryan Brilian Fatsena</h4>
+        </div>
+    </center>
+    <div class="smartphone">
+        <h2>Ukuran Smartphone</h2>
+    </div>
+    <div class="tablet">
+        <h2>Ukuran Tablet</h2>
+    </div>
+</body>
+</html>
