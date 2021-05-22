@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curicullum Vitae</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="js/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
 </head>
 <body>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script> -->
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
     <div class="header">
         <div class="container">
             <div class="profileHeader">
@@ -86,6 +96,7 @@
             <div class="tag">
                 <p>SKILLS</p>
             </div>
+            <button class="btn">pencet</button>
             <div class="cardSkill">
                 <div class="skillCard">
                     <div class="desc">
@@ -208,5 +219,10 @@
             </div>
         </div>
     </div>
+    <script>
+        $( "btn" ).click(function() {
+            $( "cardSkill" ).show( "scale", 1000 );
+        });
+    </script>
 </body>
 </html>

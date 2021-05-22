@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #161616;
+}
+
+section .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e51e2a;
+    clip-path: circle(70% at right -20%);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 150px;
+}
+
+header .navigation {
+    position: relative;
+    display: flex;
+}
+
+header .navigation li {
+    list-style: none;
+}
+
+header .navigation li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox {
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.content .textBox h2 {
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+.content .textBox p {
+    color: #fff;
+}
+
+.content .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #e51e2a;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+/* Header */
+
+.tag {
+    text-align: center;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.result {
+    display: none;
+}
+
+/* Create a Card */
+
+#tabs {
+    margin-left: 140px;
+    width: 80%;
+}
+
+table {
+    border-spacing: 15px;
+}
+
+.simpan {
+    float: right;
+    margin-right: 130px;
+}
+
+/* Create a Card */
+
+/* Card Result */
+
+.cardResult {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 100px;
+}
+
+.card {
+    margin-top: 50px;
+    width: 330px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 450px;
+    border-radius: 20px;
+    display: none;
+}
+
+.card2 {
+    margin-top: 50px;
+    width: 330px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 450px;
+    border-radius: 20px;
+    display: none;
+}
+
+.cardHeader {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 175px;
+    background-color: black;
+}
+
+.cardDetails {
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 0px 20px 0px 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e51e2a;
+    clip-path: circle(40% at right -10%);
+}
+
+.logo {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.photoContent {
+    margin-bottom: 20px;
+}
+
+.cardName {
+    text-align: center;
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+.cardJob {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-weight: 200;
+    text-align: center;
+    font-size: 15px;
+}
+
+.perusahaan {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    margin-top: 40px;
+}
+
+.key {
+    color: white;
+    font-size: 15px;
+}
+
+.value {
+    color: white;
+    font-size: 15px;
+}
+
+.detailName {
+    color: white;
+    font-size: 15px;
+}
+
+.detailGender {
+    color: white;
+    font-size: 15px;
+}
+
+.detailAddress {
+    color: white;
+    font-size: 15px;
+}
+
+.detailExpDate {
+    color: white;
+    font-size: 15px;
+}
+
+.detailBoD {
+    color: white;
+    font-size: 15px;
+}
+
+.identityDetail {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/* Card Result */

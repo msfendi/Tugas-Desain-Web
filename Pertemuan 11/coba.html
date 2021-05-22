@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="js/jquery-ui.css">
+    <link rel="stylesheet" href="coba.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="function.js"></script>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="logo.png" class="logo"></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Taste the Feeling</h2>
+                <p>Feel the sensation of freshness!.. coca-cola now has more flavors.
+                    you can also buy ones that are low in sugar. what are you waiting
+                    for, buy coca-cola at the nearest grocery store, or you can buy 
+                    on the official coca-cola website with a minimum purchase of 10$.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="tag">
+        <p>Create a Card</p>
+    </div>
+
+    <div id="tabs">
+        <ul>
+            <li class="tab1"><a href="#tabs-1">Personal Data</a></li>
+            <li class="tab2"><a href="#tabs-2">Image Profile</a></li>
+            <li><a href="#tabs-3">Template Design</a></li>
+        </ul>
+        <div id="tabs-1">
+            <table style="width:50%">
+                <tr>
+                    <td class="" colspan="2"><label for="nama">Full Name</label></td>
+                    <td colspan="1"><p>:</p></td>
+                    <td class="" colspan="3"><input type="text" class="nama" id="nama" required></td>
+                </tr>
+                <tr>
+                    <td class="" colspan="2"><label for="jk">Gender</label></td>
+                    <td colspan="1"><p>:</p></td>
+                    <td class="" colspan="3">
+                        <div id="jk">
+                            <label for="radio-1">Man</label>
+                            <input type="radio" name="radio1" id="radio-1" value="Man" onchange="check_value()">
+                            <label for="radio-2">Woman</label>
+                            <input type="radio" name="radio1" id="radio-2" value="Woman" onchange="check_value()">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="" colspan="2"><label for="salutation">Job</label></td>
+                    <td colspan="1"><p>:</p></td>
+                    <td class="" colspan="3">
+                        <select name="salutation" id="salutation">
+                            <option disabled selected>Please pick one</option>
+                            <option value="Graphic Designer">Graphic Designer</option>
+                            <option value="Web Developer">Web Developer</option>
+                            <option value="Mobile Developer">Mobile Developer</option>
+                            <option value="Game Developer">Game Developer</option>
+                            <option value="Data Analysis">Data Analysis</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="" colspan="2"> <label for="tgllahir">Birthday Date</label></td>
+                    <td colspan="1"><p>:</p></td>
+                    <td class="" colspan="3"><input type="text" id="datepicker"></td>
+                </tr>
+                <tr>
+                    <td class="" colspan="2"> <label for="tgllahir">Address</label></td>
+                    <td colspan="1"><p>:</p></td>
+                    <td class="" colspan="3"><textarea class="ui-widget ui-state-default ui-corner-all" id="addressText" cols="30" rows="5"></textarea></td>
+                </tr>
+            </table>
+        </div>
+        <div id="tabs-2">
+            <input class="ui-button ui-widget ui-corner-all" type="file" name="" id="pilihGambar" value="Pilih Gambar" disabled>
+        </div>
+        <div id="tabs-3">
+        
+        </div>
+    </div>
+
+    <br><br>
+
+    <div>
+        <input class="ui-button ui-widget ui-corner-all simpan" type="submit" value="Make a Card">
+    </div>
+
+    <div class="tag result">
+        <p>Result</p>
+    </div>
+
+    <div class="cardResult">
+        <div class="card">
+            <div class="circle"></div>
+            <div class="cardHeader">
+                <img src="logo.png" class="logo">
+                <div class="photoContent">
+                    <img class="photo" alt="" id="profileImage">
+                </div>
+                <div>
+                    <p class="cardName"></p>
+                    <p class="cardJob"></p>
+                </div>
+                <div>
+                    <img class="perusahaan" src="colaRed.png" alt="">
+                </div>
+            </div>
+        </div>
+    
+        <div class="card2">
+            <div class="circle"></div>
+            <div class="cardDetails">
+                <img src="logo.png" class="logo">
+                <div class="identityDetail">
+                    <table cellspacing="11" width="100%">
+                        <tr>
+                            <td colspan="3" class="key">Name</td>
+                            <td class="key">:</td>
+                            <td class="detailName"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="key">Gender</td>
+                            <td class="key">:</td>
+                            <td class="detailGender"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="key">Address</td>
+                            <td class="key">:</td>
+                            <td class="detailAddress"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="key">Birth of Date</td>
+                            <td class="key">:</td>
+                            <td class="detailBoD"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="key">Expired Date</td>
+                            <td class="key">:</td>
+                            <td class="detailExpDate"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
